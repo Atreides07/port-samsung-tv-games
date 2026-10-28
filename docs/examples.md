@@ -23,8 +23,9 @@ assessing fidelity, completeness, and what an automated test can prove.
 | Published image | Source capture in the original game project | Environment |
 | --- | --- | --- |
 | [X-COM](screenshots/xcom.png) | `output/playwright/skill-gallery-en/xcom.png` | Opera, English UI preview, 1920×1080 |
-| [Civilization](screenshots/civilization.png) | `output/civilization-context/quick-ship.png` | Browser verification, original Russian UI, 1920×1080 |
-| [Dune II](screenshots/dune-ii.png) | `output/playwright/dune-controls/orders.png` | Browser verification, original Russian UI, 1920×1080 |
+| [Civilization gameplay](screenshots/civilization.png) | `output/playwright/civilization/original-map.png` | Browser verification, original Russian UI, 1920×1080 |
+| [Civilization ship orders](screenshots/civilization-orders-en.png) | `output/playwright/skill-gallery-en/civilization.png` | Opera, English UI preview, 1920×1080 |
+| [Dune II](screenshots/dune-ii.png) | `output/playwright/dune-controls/moving.png` | Browser verification, original Russian UI, 1920×1080 |
 | [Prince of Persia](screenshots/prince-of-persia.png) | `output/playwright/skill-gallery-en/prince-of-persia.png` | Opera, English UI preview, 1920×1080 |
 | [Zuma Deluxe](screenshots/zuma.png) | `output/playwright/skill-gallery-en/zuma.png` | Opera, English UI preview, 1920×1080 |
 
@@ -33,10 +34,15 @@ from running local ports in isolated Opera browser contexts. Their remote-contro
 hints and Zuma interface text were translated in the live page before capture.
 X-COM and Prince of Persia already render their native game text in English.
 
-Dune II and Civilization retain the original Russian screenshots, including the
-native HUD and remote-control panels. These two PNGs are copied without alteration
-from the original verification artifacts listed above. Their original DOS programs
-and port interfaces remain in Russian.
+Dune II and Civilization gameplay screenshots show the actual game field without
+a modal order menu. Both retain the original Russian HUD and remote-control hints
+and are copied without alteration from the verification artifacts listed above.
+
+The additional Civilization ship-order screenshot is an English documentation
+preview captured from the running port in Opera on 2026-10-28. Its panel text and
+hints were translated in the live page. CSS clipping omits the top 5% and left 25%
+of the native canvas to avoid the untranslated HUD; the image is labeled
+ENGLISH UI PREVIEW. The original DOS program and gameplay interface remain Russian.
 
 The English previews are documentation presentation, not a claim that the installed
 ports have received a complete localization. No game executables, game rules, or
