@@ -1,0 +1,6 @@
+interface:
+  display_name: "Samsung TV Game Ports"
+  short_description: "Contextual remote controls, audio, and TV game performance"
+  default_prompt: "Use $port-samsung-tv-games to port this game to Samsung TV with contextual quick commands, availability hints, local audio, saves, and performance verification on the TV."
+policy:
+  allow_implicit_invocation: true
