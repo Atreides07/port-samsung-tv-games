@@ -20,36 +20,39 @@ assessing fidelity, completeness, and what an automated test can prove.
 
 ## Included captures
 
-| Published image | Source capture in the original game project | Environment |
+| Published image | Capture artifact in the original game project | Environment |
 | --- | --- | --- |
-| [X-COM](screenshots/xcom.png) | `output/playwright/skill-gallery-en/xcom.png` | Opera, English UI preview, 1920×1080 |
-| [Civilization gameplay](screenshots/civilization.png) | `output/playwright/civilization/original-map.png` | Browser verification, original Russian UI, 1920×1080 |
-| [Civilization ship orders](screenshots/civilization-orders-en.png) | `output/playwright/skill-gallery-en/civilization.png` | Opera, English UI preview, 1920×1080 |
-| [Dune II](screenshots/dune-ii.png) | `output/playwright/dune-controls/moving.png` | Browser verification, original Russian UI, 1920×1080 |
-| [Prince of Persia](screenshots/prince-of-persia.png) | `output/playwright/skill-gallery-en/prince-of-persia.png` | Opera, English UI preview, 1920×1080 |
-| [Zuma Deluxe](screenshots/zuma.png) | `output/playwright/skill-gallery-en/zuma.png` | Opera, English UI preview, 1920×1080 |
+| [X-COM](screenshots/xcom.png) | `output/skill-publication/tv-captures/xcom.png` | Physical Samsung TV, tactical battle, 1920×1080 |
+| [Civilization gameplay](screenshots/civilization.png) | `output/skill-publication/tv-captures/civilization.png` | Physical Samsung TV, original Russian game, 1920×1080 |
+| [Civilization ship orders](screenshots/civilization-orders.png) | `output/skill-publication/tv-captures/civilization-orders.png` | Physical Samsung TV, actual Russian order panel, 1920×1080 |
+| [Dune II](screenshots/dune-ii.png) | `output/skill-publication/tv-captures/dune-ii.png` | Physical Samsung TV, original Russian mission, 1920×1080 |
+| [Prince of Persia](screenshots/prince-of-persia.png) | `output/skill-publication/tv-captures/prince-of-persia.png` | Physical Samsung TV, original DOS gameplay, 1920×1080 |
+| [Zuma Deluxe](screenshots/zuma.png) | `output/skill-publication/tv-captures/zuma.png` | Physical Samsung TV, HTML/Canvas adaptation, 1920×1080 |
 
-The X-COM, Prince of Persia, and Zuma screenshots were captured on 2026-10-28
-from running local ports in isolated Opera browser contexts. Their remote-control
-hints and Zuma interface text were translated in the live page before capture.
-X-COM and Prince of Persia already render their native game text in English.
+All six images were captured on 2026-10-28 from a Samsung UE65TU8570UXRU,
+running Tizen 5.5 and Chromium 69. The capture session verifies the device's
+SMART-TV user agent, application ID, 1920×1080 application viewport, and game
+state. English and Russian text is retained as the TV renders it; no translation
+preview, cropping, retouching, or generated game imagery is used.
 
-Dune II and Civilization gameplay screenshots show the actual game field without
-a modal order menu. Both retain the original Russian HUD and remote-control hints
-and are copied without alteration from the verification artifacts listed above.
+This TV does not return frames through CDP `Page.captureScreenshot` or screencast.
+Instead, its Web Inspector exports the application's painted render layers using
+`LayerTree.makeSnapshot` and `LayerTree.replaySnapshot`. An offscreen Canvas on the
+**same TV** composites those layer bitmaps in their existing order, positions,
+and transforms, then exports the PNG. This captures both the game and its remote
+interface without rendering the game in a desktop browser. It is an application
+render capture, not a camera photograph, HDMI capture, or measurement of the TV's
+physical panel processing.
 
-The additional Civilization ship-order screenshot is an English documentation
-preview captured from the running port in Opera on 2026-10-28. Its panel text and
-hints were translated in the live page. CSS clipping omits the top 5% and left 25%
-of the native canvas to avoid the untranslated HUD; the image is labeled
-ENGLISH UI PREVIEW. The original DOS program and gameplay interface remain Russian.
-
-The English previews are documentation presentation, not a claim that the installed
-ports have received a complete localization. No game executables, game rules, or
-original art were changed. The PNGs were captured directly from the original ports
-or the live English previews; no image retouching or AI-generated game imagery was
-used. Source game files, test fixtures, and capture runners belong to the original
-project and are not distributed in this skill repository.
+Temporary signed copies use separate application identities and storage origins.
+X-COM and Dune II load test checkpoints; Civilization uses a prepared ship
+checkpoint. Prince of Persia and Zuma run their normal gameplay. Capture copies
+preserve the source game rules, rendering, audio, and interface; test-only startup
+seeding and Civilization inspection hooks prepare the scenes. The original game
+applications and user saves remain separate. The temporary applications and SDB
+forwarding are removed after capture. Per-frame JSON records, raw layer PNGs,
+source hashes, and install logs remain in the original project's capture folder;
+game content and the capture utilities are not distributed with this skill.
 
 ## What is and is not established
 

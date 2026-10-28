@@ -16,19 +16,19 @@ performance measurement, and verification of the final TV package.
 
 ## Games behind the workflow
 
-The gallery uses **English interface previews for X-COM, Prince of Persia, and
-Zuma**, captured from running ports in isolated Opera sessions. **Dune II and
-Civilization gameplay retain their original Russian interfaces**. A separate
-Civilization ship-order panel demonstrates the controls in English. These are
-browser captures, not physical-TV performance measurements; see the capture notes
-for language and provenance.
+All six images below come from games running on a **physical Samsung
+UE65TU8570UXRU TV, Tizen 5.5 / Chromium 69**, captured on 2026-10-28.
+They retain the actual game and remote-control interface shown by the TV;
+English captions describe the original English and Russian interfaces.
+See the [capture notes](docs/examples.md#included-captures) for the render-layer
+capture method, isolated game sessions, and verification limits.
 
 | X-COM: UFO Defense | Dune II |
 | --- | --- |
 | ![X-COM Battlescape with remote-control hints](docs/screenshots/xcom.png) | ![Dune II mission gameplay with units, base, native command buttons, and minimap](docs/screenshots/dune-ii.png) |
 | Original DOS game with tactical movement and contextual actions. | Original DOS mission with units, a base, and the native command panel. |
 | **Prince of Persia** | **Zuma Deluxe** |
-| ![Prince of Persia gameplay with English remote-control hints](docs/screenshots/prince-of-persia.png) | ![Zuma TV adaptation with aim, fire, ball swap, and precision controls](docs/screenshots/zuma.png) |
+| ![Prince of Persia gameplay captured on a physical Samsung TV](docs/screenshots/prince-of-persia.png) | ![Zuma TV adaptation with aim, fire, ball swap, and precision controls](docs/screenshots/zuma.png) |
 | Original DOS platformer with a running-jump input adapter. | HTML/Canvas adaptation using original resources; it does not execute the Windows game. |
 
 **Sid Meier's Civilization — gameplay**
@@ -39,10 +39,10 @@ Original DOS gameplay with the world map, active unit, and native Russian interf
 
 **Sid Meier's Civilization — contextual ship orders**
 
-![English Civilization quick-order panel with sentry, skip-turn, wait, and all-command actions](docs/screenshots/civilization-orders-en.png)
+![Civilization ship-order panel captured on the TV, showing sentry, skip-turn, wait, and all commands in the actual Russian interface](docs/screenshots/civilization-orders.png)
 
-English documentation preview of object-specific quick actions and persistent
-sentry duty. The original DOS game remains in Russian.
+Object-specific quick actions and persistent sentry duty, shown in the actual
+Russian TV interface. Return opens the panel; a direction selects an order.
 
 See [examples and capture provenance](docs/examples.md) for the demonstrated
 behaviors and the limits of what these screenshots prove. Game archives,
