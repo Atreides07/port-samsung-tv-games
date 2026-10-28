@@ -16,17 +16,19 @@ performance measurement, and verification of the final TV package.
 
 ## Games behind the workflow
 
-These are actual captures from the author's ports. All five images below are
-**browser verification screenshots**, not photographs or performance measurements
-of a physical TV. The captured interfaces use Russian labels; the skill and
-installation guide are in English.
+These are **English UI previews captured from running ports in Opera** for this
+documentation. Remote-control labels and hints are localized in an isolated
+browser session. Dune II and Civilization retain their original Russian DOS
+programs; their native HUD is clipped to the map area for these previews. The
+images illustrate the interfaces, not physical-TV performance or a full English
+localization of those games.
 
 | X-COM: UFO Defense | Dune II |
 | --- | --- |
 | ![X-COM Battlescape with remote-control hints](docs/screenshots/xcom.png) | ![Dune II contextual order panel operated by remote directions](docs/screenshots/dune-ii.png) |
 | Original DOS game with tactical movement and contextual actions. | Original DOS game with a compact directional order panel. |
 | **Prince of Persia** | **Zuma Deluxe** |
-| ![Prince of Persia running-jump scenario with remote-control hints](docs/screenshots/prince-of-persia.png) | ![Zuma TV adaptation with aim, fire, ball swap, and precision controls](docs/screenshots/zuma.png) |
+| ![Prince of Persia gameplay with English remote-control hints](docs/screenshots/prince-of-persia.png) | ![Zuma TV adaptation with aim, fire, ball swap, and precision controls](docs/screenshots/zuma.png) |
 | Original DOS platformer with a running-jump input adapter. | HTML/Canvas adaptation using original resources; it does not execute the Windows game. |
 
 **Sid Meier's Civilization — contextual ship orders**
