@@ -16,12 +16,11 @@ performance measurement, and verification of the final TV package.
 
 ## Games behind the workflow
 
-These are **English UI previews captured from running ports in Opera** for this
-documentation. Remote-control labels and hints are localized in an isolated
-browser session. Dune II and Civilization retain their original Russian DOS
-programs; their native HUD is clipped to the map area for these previews. The
-images illustrate the interfaces, not physical-TV performance or a full English
-localization of those games.
+The gallery uses **English interface previews for X-COM, Prince of Persia, and
+Zuma**, captured from running ports in isolated Opera sessions. **Dune II and
+Civilization retain their original Russian interfaces**, including the native
+HUD and remote-control panels. These are browser captures, not physical-TV
+performance measurements. See the capture notes for language and provenance.
 
 | X-COM: UFO Defense | Dune II |
 | --- | --- |

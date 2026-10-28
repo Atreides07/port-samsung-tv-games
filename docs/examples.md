@@ -23,28 +23,27 @@ assessing fidelity, completeness, and what an automated test can prove.
 | Published image | Source capture in the original game project | Environment |
 | --- | --- | --- |
 | [X-COM](screenshots/xcom.png) | `output/playwright/skill-gallery-en/xcom.png` | Opera, English UI preview, 1920×1080 |
-| [Civilization](screenshots/civilization.png) | `output/playwright/skill-gallery-en/civilization.png` | Opera, English UI preview, 1920×1080 |
-| [Dune II](screenshots/dune-ii.png) | `output/playwright/skill-gallery-en/dune-ii.png` | Opera, English UI preview, 1920×1080 |
+| [Civilization](screenshots/civilization.png) | `output/civilization-context/quick-ship.png` | Browser verification, original Russian UI, 1920×1080 |
+| [Dune II](screenshots/dune-ii.png) | `output/playwright/dune-controls/orders.png` | Browser verification, original Russian UI, 1920×1080 |
 | [Prince of Persia](screenshots/prince-of-persia.png) | `output/playwright/skill-gallery-en/prince-of-persia.png` | Opera, English UI preview, 1920×1080 |
 | [Zuma Deluxe](screenshots/zuma.png) | `output/playwright/skill-gallery-en/zuma.png` | Opera, English UI preview, 1920×1080 |
 
-These screenshots were captured on 2026-10-28 from running local ports in isolated
-Opera browser contexts. The remote-control panels, hints, and Zuma interface text
-were translated in the live page before capture. X-COM and Prince of Persia
-already render their native game text in English.
+The X-COM, Prince of Persia, and Zuma screenshots were captured on 2026-10-28
+from running local ports in isolated Opera browser contexts. Their remote-control
+hints and Zuma interface text were translated in the live page before capture.
+X-COM and Prince of Persia already render their native game text in English.
 
-Dune II and Civilization use the supplied Russian DOS versions. The preview uses
-CSS clipping to show the map without their untranslated native HUD: Dune omits
-the top 20% and right 25% of the native canvas; Civilization omits the top 5% and
-left 25%. Their images are explicitly labeled **ENGLISH UI PREVIEW**. The English
-panels preserve the existing command structure and availability states.
+Dune II and Civilization retain the original Russian screenshots, including the
+native HUD and remote-control panels. These two PNGs are copied without alteration
+from the original verification artifacts listed above. Their original DOS programs
+and port interfaces remain in Russian.
 
-This is documentation presentation, not a claim that the installed ports or the
-original DOS programs have been fully localized. No game executables, game rules,
-or original art were changed. The PNGs were captured directly from these live
-previews; no image retouching or AI-generated game imagery was used. Source game
-files, test fixtures, and capture runners belong to the original project and are
-not distributed in this skill repository.
+The English previews are documentation presentation, not a claim that the installed
+ports have received a complete localization. No game executables, game rules, or
+original art were changed. The PNGs were captured directly from the original ports
+or the live English previews; no image retouching or AI-generated game imagery was
+used. Source game files, test fixtures, and capture runners belong to the original
+project and are not distributed in this skill repository.
 
 ## What is and is not established
 
