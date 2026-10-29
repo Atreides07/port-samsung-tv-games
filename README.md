@@ -3,12 +3,13 @@
 [![Validate](https://github.com/Atreides07/port-samsung-tv-games/actions/workflows/validate.yml/badge.svg)](https://github.com/Atreides07/port-samsung-tv-games/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-An Agent Skill for bringing offline games to Samsung Smart TV / Tizen with
-controls people can actually use from the sofa.
+An Agent Skill focused on porting classic DOS games to Samsung Smart TV / Tizen
+with controls people can actually use from the sofa.
 
-It guides an AI coding agent through native HTML/Canvas adaptations and local
-DOS runtimes: remote input, contextual commands, original audio, reliable saves,
-performance measurement, and verification of the final TV package.
+It guides an AI coding agent through running original DOS games in local runtimes:
+remote input, contextual commands, original audio, reliable saves, performance
+measurement, and verification of the final TV package. It also supports native
+HTML/Canvas adaptations.
 
 **[Install for Codex, Claude, or Cursor](docs/installation.md)** ·
 **[Download skill ZIP](https://github.com/Atreides07/port-samsung-tv-games/releases/latest/download/port-samsung-tv-games.zip)** ·
