@@ -25,12 +25,14 @@ assessing fidelity, completeness, and what an automated test can prove.
 | [X-COM](screenshots/xcom.png) | `output/skill-publication/tv-captures/xcom.png` | Physical Samsung TV, tactical battle, 1920×1080 |
 | [Civilization gameplay](screenshots/civilization.png) | `output/skill-publication/tv-captures/civilization.png` | Physical Samsung TV, original Russian game, 1920×1080 |
 | [Civilization ship orders](screenshots/civilization-orders.png) | `output/skill-publication/tv-captures/civilization-orders.png` | Physical Samsung TV, actual Russian order panel, 1920×1080 |
-| [Dune II](screenshots/dune-ii.png) | `output/skill-publication/tv-captures/dune-ii.png` | Physical Samsung TV, original Russian mission, 1920×1080 |
+| [Dune II](screenshots/dune-ii-gameplay-tv.png) | `output/skill-publication/tv-captures/dune-ii-gameplay-2026-10-29.png` | Physical Samsung TV, mission gameplay, 1920×1080 |
 | [Prince of Persia](screenshots/prince-of-persia.png) | `output/skill-publication/tv-captures/prince-of-persia.png` | Physical Samsung TV, original DOS gameplay, 1920×1080 |
 | [Zuma Deluxe](screenshots/zuma.png) | `output/skill-publication/tv-captures/zuma.png` | Physical Samsung TV, HTML/Canvas adaptation, 1920×1080 |
 
-All six images were captured on 2026-10-28 from a Samsung UE65TU8570UXRU,
-running Tizen 5.5 and Chromium 69. The capture session verifies the device's
+Five images were captured on 2026-10-28; Dune II was recaptured on 2026-10-29
+after selecting a unit and issuing a movement order, with no order menu open.
+All captures come from a Samsung UE65TU8570UXRU running Tizen 5.5 and Chromium 69.
+The capture session verifies the device's
 SMART-TV user agent, application ID, 1920×1080 application viewport, and game
 state. English and Russian text is retained as the TV renders it; no translation
 preview, cropping, retouching, or generated game imagery is used.

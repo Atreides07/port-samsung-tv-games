@@ -17,7 +17,7 @@ performance measurement, and verification of the final TV package.
 ## Games behind the workflow
 
 All six images below come from games running on a **physical Samsung
-UE65TU8570UXRU TV, Tizen 5.5 / Chromium 69**, captured on 2026-10-28.
+UE65TU8570UXRU TV, Tizen 5.5 / Chromium 69**, captured on 2026-10-28 and 2026-10-29.
 They retain the actual game and remote-control interface shown by the TV;
 English captions describe the original English and Russian interfaces.
 See the [capture notes](docs/examples.md#included-captures) for the render-layer
@@ -25,8 +25,8 @@ capture method, isolated game sessions, and verification limits.
 
 | X-COM: UFO Defense | Dune II |
 | --- | --- |
-| ![X-COM Battlescape with remote-control hints](docs/screenshots/xcom.png) | ![Dune II mission gameplay with units, base, native command buttons, and minimap](docs/screenshots/dune-ii.png) |
-| Original DOS game with tactical movement and contextual actions. | Original DOS mission with units, a base, and the native command panel. |
+| ![X-COM Battlescape with remote-control hints](docs/screenshots/xcom.png) | ![Dune II gameplay on a physical Samsung TV, with a selected unit moving across the mission map](docs/screenshots/dune-ii-gameplay-tv.png) |
+| Original DOS game with tactical movement and contextual actions. | Original DOS mission during a unit movement order. |
 | **Prince of Persia** | **Zuma Deluxe** |
 | ![Prince of Persia gameplay captured on a physical Samsung TV](docs/screenshots/prince-of-persia.png) | ![Zuma TV adaptation with aim, fire, ball swap, and precision controls](docs/screenshots/zuma.png) |
 | Original DOS platformer with a running-jump input adapter. | HTML/Canvas adaptation using original resources; it does not execute the Windows game. |
