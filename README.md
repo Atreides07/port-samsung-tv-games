@@ -39,10 +39,11 @@ Original DOS gameplay with the world map, active unit, and native Russian interf
 
 **Sid Meier's Civilization — contextual ship orders**
 
-![Civilization ship-order panel captured on the TV, showing sentry, skip-turn, wait, and all commands in the actual Russian interface](docs/screenshots/civilization-orders.png)
+![English Civilization ship-order panel captured on the TV, showing sentry, skip-turn, wait, and all commands](docs/screenshots/civilization-orders.png)
 
-Object-specific quick actions and persistent sentry duty, shown in the actual
-Russian TV interface. Return opens the panel; a direction selects an order.
+Object-specific quick actions and persistent sentry duty, shown in English for
+this TV capture. Return opens the panel; a direction selects an order.
+The original DOS game remains in Russian.
 
 See [examples and capture provenance](docs/examples.md) for the demonstrated
 behaviors and the limits of what these screenshots prove. Game archives,
