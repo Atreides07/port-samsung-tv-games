@@ -16,10 +16,12 @@ performance measurement, and verification of the final TV package.
 
 ## Games behind the workflow
 
-All six images below come from games running on a **physical Samsung
+All eight images below come from games running on a **physical Samsung
 UE65TU8570UXRU TV, Tizen 5.5 / Chromium 69**, captured on 2026-10-28 and 2026-10-29.
 They retain the actual game and remote-control interface shown by the TV;
 English captions describe the original English and Russian interfaces.
+Wolfenstein's wrapper and the Civilization ship-order panel are shown in English
+for these captures; their original game graphics are unchanged.
 See the [capture notes](docs/examples.md#included-captures) for the render-layer
 capture method, isolated game sessions, and verification limits.
 
@@ -30,6 +32,14 @@ capture method, isolated game sessions, and verification limits.
 | **Prince of Persia** | **Zuma Deluxe** |
 | ![Prince of Persia gameplay captured on a physical Samsung TV](docs/screenshots/prince-of-persia.png) | ![Zuma TV adaptation with aim, fire, ball swap, and precision controls](docs/screenshots/zuma.png) |
 | Original DOS platformer with a running-jump input adapter. | HTML/Canvas adaptation using original resources; it does not execute the Windows game. |
+
+| Wolfenstein 3D — gameplay | Wolfenstein 3D — quick commands |
+| --- | --- |
+| ![Original Wolfenstein 3D gameplay on a physical Samsung TV, with English movement, fire, door and pause hints](docs/screenshots/wolfenstein-3d-gameplay-tv.png) | ![English Wolfenstein quick-command menu on the TV, with door, weapons, strafe and save actions](docs/screenshots/wolfenstein-3d-commands-tv.png) |
+| Immediate fire and direct movement in the original DOS game. | Return opens the panel; a direction selects a command. A door takes two presses, weapon selection three. |
+
+The English interface is a separate capture copy of the Russian TV wrapper.
+The original executable, six episodes, rendering and game rules are preserved.
 
 **Sid Meier's Civilization — gameplay**
 
@@ -155,5 +165,6 @@ no rights to their artwork, trademarks, or game assets are granted.
 Examples credit the original games and creators/publishers: X-COM: UFO Defense
 (MicroProse), Sid Meier's Civilization (MicroProse), Dune II (Westwood Studios),
 Prince of Persia (Jordan Mechner /
-Brøderbund), and Zuma Deluxe (PopCap Games). Their names identify the examples;
+Brøderbund), Zuma Deluxe (PopCap Games), and Wolfenstein 3D (id Software /
+Apogee Software). Their names identify the examples;
 this project is independent of Samsung and those game creators.
