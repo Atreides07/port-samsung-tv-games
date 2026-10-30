@@ -17,11 +17,11 @@ HTML/Canvas adaptations.
 
 ## Games behind the workflow
 
-All eight images below come from games running on a **physical Samsung
-UE65TU8570UXRU TV, Tizen 5.5 / Chromium 69**, captured on 2026-10-28 and 2026-10-29.
+All nine images below come from games running on a **physical Samsung
+UE65TU8570UXRU TV, Tizen 5.5 / Chromium 69**, captured between 2026-10-28 and 2026-10-30.
 They retain the actual game and remote-control interface shown by the TV;
 English captions describe the original English and Russian interfaces.
-Wolfenstein's wrapper and the Civilization ship-order panel are shown in English
+The Wolfenstein and Dyna Blaster wrappers and the Civilization ship-order panel are shown in English
 for these captures; their original game graphics are unchanged.
 See the [capture notes](docs/examples.md#included-captures) for the render-layer
 capture method, isolated game sessions, and verification limits.
@@ -41,6 +41,16 @@ capture method, isolated game sessions, and verification limits.
 
 The English interface is a separate capture copy of the Russian TV wrapper.
 The original executable, six episodes, rendering and game rules are preserved.
+
+**Dyna Blaster — original DOS gameplay**
+
+![Dyna Blaster running on a physical Samsung TV, with English remote hints for movement, bombs, pause and the detonator](docs/screenshots/dyna-blaster-gameplay-tv.png)
+
+Arrows move, OK places a bomb immediately, and Return pauses the original game.
+The detonator takes Return, Up after its power-up is collected. Original
+eight-letter passwords restore a level after restarting the app; they do not
+restore the exact position. This English capture uses an isolated wrapper and a
+checkpoint accepted by the original game.
 
 **Sid Meier's Civilization — gameplay**
 
@@ -166,6 +176,6 @@ no rights to their artwork, trademarks, or game assets are granted.
 Examples credit the original games and creators/publishers: X-COM: UFO Defense
 (MicroProse), Sid Meier's Civilization (MicroProse), Dune II (Westwood Studios),
 Prince of Persia (Jordan Mechner /
-Brøderbund), Zuma Deluxe (PopCap Games), and Wolfenstein 3D (id Software /
-Apogee Software). Their names identify the examples;
+Brøderbund), Zuma Deluxe (PopCap Games), Wolfenstein 3D (id Software /
+Apogee Software), and Dyna Blaster (Hudson Soft). Their names identify the examples;
 this project is independent of Samsung and those game creators.
