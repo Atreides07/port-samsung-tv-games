@@ -8,7 +8,7 @@ with controls people can actually use from the sofa.
 
 It guides an AI coding agent through running original DOS games in local runtimes:
 remote input, contextual commands, original audio, reliable saves, performance
-measurement, and verification of the final TV package. It also supports native
+profiling and optimization by default, and verification of the final TV package. It also supports native
 HTML/Canvas adaptations.
 
 **[Install for Codex, Claude, or Cursor](docs/installation.md)** ·
@@ -80,8 +80,9 @@ executables, runtime bundles, and installable TV games are not distributed here.
   package checks with the network unavailable.
 - **Durable progress:** complete save transactions, lifecycle recovery, previous
   version updates, and careful save migration.
-- **Measured performance:** realistic internal resolution, Canvas/WebGL validation,
-  startup and peak memory, frame pacing, and appropriately scoped long sessions.
+- **Optimization by default:** profile and fix measured gameplay bottlenecks as
+  part of the port; no separate optimization request is needed. Check game speed,
+  input, original audio, image quality, resources, and the final TV package together.
 - **Honest verification:** browser results, physical-TV traces, speaker listening,
   and manual-remote play are reported separately.
 

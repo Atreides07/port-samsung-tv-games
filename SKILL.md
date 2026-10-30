@@ -3,20 +3,23 @@ name: port-samsung-tv-games
 description: >-
   Build and port offline HTML/Canvas and DOS games to Samsung Smart TV / Tizen.
   Use for TV game ports, awkward remote controls, or TV performance fixes;
-  covers contextual input, local audio, durable saves, and hardware verification.
+  covers contextual input, performance optimization by default, local audio,
+  durable saves, and hardware verification.
   Not for ordinary websites, TV purchases, or unrelated platforms.
 license: MIT
 metadata:
   author: Atreides07
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Samsung TV Game Ports
 
-A full port includes usable remote controls and measured performance, with fixes
-within the same assignment. Respect the user's scope: plans and audits remain
-plans and audits; a targeted fix does not authorize unrelated changes to controls,
-graphics, audio, other games, network settings, or a VPN.
+Profiling and performance optimization are part of every TV port implementation
+by default. Do not wait for the user to report stutter or request a separate
+optimization pass. Complete in-scope, reversible tuning within the authorized
+assignment. Respect explicit exclusions: plans and audits remain plans and audits;
+a targeted fix does not authorize unrelated changes to controls, graphics, audio,
+other games, network settings, or a VPN.
 
 ## Scope and Route
 
@@ -52,6 +55,24 @@ Read only the relevant supporting guidance:
 - Keep runtime assets, fonts, audio, and required license notices local. Include
   only assets whose distribution is permitted; publication of this skill does not
   grant distribution rights to the games used as examples.
+
+## Optimize Before Delivery
+
+Measure the initial playable build in representative active gameplay with its
+original sound and a frequent action. Use the available target TV; browser-only
+results leave hardware acceptance pending. Exclude attract demos from evidence
+of player response. Profile the CPU/render/audio path, fix measured costs, and
+compare the same checkpoint, sound, actions, and interval after each candidate
+change. Repeat samples when random scenes or short intervals could reverse the
+conclusion; change one factor at a time until its effect is understood.
+
+Choose by original game-clock/action speed, input response, visible output, audio,
+and resources together. A higher frame counter achieved by slowing the rules,
+muting sound, losing graphics, or changing gameplay is not an optimization.
+Verify the selected result in the final installed package, including a later
+scene or level transition. Do not deliver after functional checks alone while
+measured stutter remains uninvestigated. If an engine or hardware limit remains,
+report the measured limit and tested tradeoffs; do not invent an improvement.
 
 ## Design Controls Around Play
 
